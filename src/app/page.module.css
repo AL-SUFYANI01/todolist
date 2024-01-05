@@ -1,0 +1,95 @@
+.main{
+  padding: 15px;
+}
+.app{
+    border: 1px solid rgb(42, 41, 41);
+    border-radius: 15px;
+    margin: 50px 30px;
+    padding: 25px 15px;
+  
+}
+
+.todoContainer{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.todoContainer ul li{
+    width: 170px;
+    list-style-type: "🟢";
+    overflow-wrap: break-word;
+    font-size: 18px;
+    color: #080808;
+    margin: 10px 0;
+    padding: 10px;
+    line-height: 1.5em;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    
+
+}
+
+.done{
+   text-decoration: line-through;
+}
+
+.massege{
+    font-size: 18px;
+    color: red;
+}
+
+.hidMassege{
+   display: none;
+}
+
+.item{
+    border-radius: 12px;
+    background-color:#007bff10;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: flex-start
+
+}
+
+.item2{
+    border-radius: 12px;
+    background-color:#40ff0010;
+    box-shadow: rgba(23, 21, 21, 0.1) 0px 1px 3px;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: flex-start
+}
+.delete{
+    background-color: rgba(250, 0, 0, 0.218);
+    border-radius: 25px;
+    margin-top: 1px;
+    margin-right: 1px;
+    cursor: pointer;
+
+}
+.title{
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+}
+
+
+.input{
+    height: 8vh;
+    margin-top: 2vh;
+    border-radius: 4px;
+    border: 1px solid rgb(42, 41, 41);
+    border-color: rgb(53, 53, 95);
+    font-size: small;
+}
+.button{
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: rgb(45, 44, 43);
+    color: aliceblue;
+}
